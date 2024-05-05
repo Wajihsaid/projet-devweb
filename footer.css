@@ -1,0 +1,27 @@
+#footer0{display: flex;
+    justify-content: space-around;
+    border-top:1px solid black;}
+    #footer1{width:30vh;
+        margin-top:5vh;
+        margin-bottom: 1vh;
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .foto{height:max(3vh,2vw);}
+    .foto:hover{cursor: pointer;
+    height: max(3.2vh,2.3vw);
+    transition: ease-in;}
+    #footer2{
+        background-color: rgb(231, 231, 231);
+        margin-bottom: 0px;
+        font-size: 0.7rem;
+        text-align: right;
+        height:10vh;
+    
+    }
+    #footer2 p{margin-right: 4vw;}
+    .copyright:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
